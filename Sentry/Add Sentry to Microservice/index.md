@@ -6,7 +6,7 @@
 2-. Realizado lo anterior se tiene que importar en el archivo donde se levanta el servidor.
 ![](../Images/2024-03-18-19-01-26-image.png)
 
-3-. Para manejar las trasancciones se crear la librería sentryTransacction. Dentro de esta se agregaran dos funciones, una para crear la transacción y otra para finalizarla
+3-. Para manejar las trasancciones se crear la librería sentryTransacction. Dentro de esta se agregaran dos funciones, una para crear la transacción y otra para finalizarla.
 ![](../Images/2024-03-18-19-12-04-image.png)
 
 4-. Para utilizarla se tiene que importar esta librería creada, en uno de los resolver se creo una transacción `startTransaction("GetUsers")`, la cual se guardo en una constante con el fin de poder utilizar esta para finalizar esta.
