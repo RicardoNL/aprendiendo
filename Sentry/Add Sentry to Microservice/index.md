@@ -23,6 +23,7 @@ Para agregar spans se crearon los siguientes dos métodos, el primero recibe el 
 
 Para utilizarlo se le tiene que pasar el objeto de transacction.
 ![](../Images/2024-05-17-14-00-52-image.png)
+
 Si ejecutamos el query para obtener un usuario por ID y checamos en dashboard de sentry se puede ver que ambos registros se han agregado.
 ![](../Images/2024-05-17-14-01-54-image.png)
 
